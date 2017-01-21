@@ -1,0 +1,16 @@
+D:\C#\XComp\XComp\XComp\bin\x86\Debug\XComp.exe
+D:\C#\XComp\XComp\XComp\bin\x86\Debug\XComp.pdb
+D:\C#\XComp\XComp\XComp\bin\x86\Debug\Microsoft.Xna.Framework.dll
+D:\C#\XComp\XComp\XComp\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+D:\C#\XComp\XComp\XComp\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+D:\C#\XComp\XComp\XComp\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+D:\C#\XComp\XComp\XComp\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+D:\C#\XComp\XComp\XComp\bin\x86\Debug\Microsoft.Xna.Framework.xml
+D:\C#\XComp\XComp\XComp\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+D:\C#\XComp\XComp\XComp\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+D:\C#\XComp\XComp\XComp\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+D:\C#\XComp\XComp\XComp\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+D:\C#\XComp\XComp\XComp\obj\x86\Debug\XComp.csprojResolveAssemblyReference.cache
+D:\C#\XComp\XComp\XComp\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\C#\XComp\XComp\XComp\obj\x86\Debug\XComp.exe
+D:\C#\XComp\XComp\XComp\obj\x86\Debug\XComp.pdb
