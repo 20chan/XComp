@@ -5,7 +5,7 @@ namespace XComp.Core
 {
     public class Sprite
     {
-        private Texture2D Texture { get; set; }
+        public Texture2D Texture { get; set; }
         public Color Tint { get; set; }
 
         public Sprite(Texture2D texture)

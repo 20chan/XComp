@@ -75,6 +75,7 @@
     <Compile Include="Core\ActionBase.cs" />
     <Compile Include="Core\Camera.cs" />
     <Compile Include="Core\ComponentBase.cs" />
+    <Compile Include="Core\Components\RenderableComponent.cs" />
     <Compile Include="Core\ControllerBase.cs" />
     <Compile Include="Core\GameObject.cs" />
     <Compile Include="Core\Level.cs" />

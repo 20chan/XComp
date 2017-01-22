@@ -35,6 +35,7 @@ namespace XComp
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
             level1 = new Level(this, GraphicsDevice.Viewport);
+            level1.LoadContent();
         }
 
         protected override void UnloadContent()

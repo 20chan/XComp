@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
+using Microsoft.Xna.Framework;
 
 namespace XComp.Core
 {
-    public abstract class ComponentBase
+    public abstract class ComponentBase : DrawableGameComponent
     {
         public GameObject Owner { get; set; }
+
+        public ComponentBase(GameObject owner) : base(owner.Game)
+        {
+            Owner = owner;
+        }
     }
 }
