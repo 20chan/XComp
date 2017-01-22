@@ -8,6 +8,7 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using XComp.Core;
 
 namespace XComp
 {
@@ -15,6 +16,8 @@ namespace XComp
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+
+        Level level1;
 
         public Test()
         {
@@ -31,6 +34,7 @@ namespace XComp
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            level1 = new Level(this, GraphicsDevice.Viewport);
         }
 
         protected override void UnloadContent()
@@ -42,6 +46,8 @@ namespace XComp
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
+
+            level1.Update(gameTime);
             
             base.Update(gameTime);
         }
@@ -49,7 +55,9 @@ namespace XComp
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-            
+
+            level1.Draw(gameTime);
+               
             base.Draw(gameTime);
         }
     }
