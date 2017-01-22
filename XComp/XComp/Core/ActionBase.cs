@@ -7,6 +7,6 @@ namespace XComp.Core
 {
     public abstract class ActionBase
     {
-
+        public GameObject Owner { get; set; }
     }
 }
