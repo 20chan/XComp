@@ -3,11 +3,11 @@ using Microsoft.Xna.Framework;
 
 namespace XComp.Core
 {
-    public abstract class ComponentBase : DrawableGameComponent
+    public abstract class ComponentBase
     {
         public GameObject Owner { get; set; }
 
-        public ComponentBase(GameObject owner) : base(owner.Game)
+        public ComponentBase(GameObject owner)
         {
             Owner = owner;
         }

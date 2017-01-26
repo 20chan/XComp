@@ -38,16 +38,13 @@ namespace XComp.Core
             _components = new List<ComponentBase>();
         }
 
-        public virtual void Draw(SpriteBatch sb, GameTime gameTime)
+        public ComponentBase GetComponent<T>()
         {
             foreach (var c in _components)
-                c.Draw(gameTime);
-        }
+                if (c is T)
+                    return c;
 
-        public virtual void Update(GameTime gameTime)
-        {
-            foreach (var c in _components)
-                c.Update(gameTime);
+            return null;
         }
     }
 }

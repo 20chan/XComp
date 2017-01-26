@@ -11,10 +11,9 @@ namespace XComp.Core.Components
             SpriteBatch = sb;
         }
 
-        public override void Draw(GameTime gameTime)
+        public void Render(GameTime gameTime)
         {
             SpriteBatch.Draw(Owner.Sprite.Texture, Owner.Bound, null, Owner.Sprite.Tint, Owner.Rotation, Vector2.Zero, SpriteEffects.None, Owner.Depth);
-            base.Draw(gameTime);
         }
     }
 }
